@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\DarkGreen.png" />
+    <None Remove="Assets\DeadSnake.png" />
+    <None Remove="Assets\Empty.png" />
+    <None Remove="Assets\Food.png" />
+    <None Remove="Assets\Green.png" />
+    <None Remove="Assets\Icon.ico" />
+    <None Remove="Assets\Icon.png" />
+    <None Remove="Assets\Snake.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\DarkGreen.png" />
+    <Resource Include="Assets\DeadSnake.png" />
+    <Resource Include="Assets\Empty.png" />
+    <Resource Include="Assets\Food.png" />
+    <Resource Include="Assets\Green.png" />
+    <Resource Include="Assets\Icon.ico" />
+    <Resource Include="Assets\Icon.png" />
+    <Resource Include="Assets\Snake.png" />
+  </ItemGroup>
+
+</Project>
